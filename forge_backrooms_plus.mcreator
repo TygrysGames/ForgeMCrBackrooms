@@ -1,0 +1,1231 @@
+{
+  "mod_elements": [
+    {
+      "name": "Level1Wall",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_wall",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_wall.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1WallBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_wall.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_wall.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1Floor",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_floor",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1FloorBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_floor.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_floor.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_floor.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1WallDamaged",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_wall_damaged",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_wall_damaged.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_wall_damaged.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_wall_damaged.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1WallDamagedBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SanityDamage",
+      "type": "damagetype",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/damage_type/sanity_damage.json"
+        ]
+      }
+    },
+    {
+      "name": "Sanity1",
+      "type": "overlay",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity1Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity2",
+      "type": "overlay",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_2",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity2Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity3",
+      "type": "overlay",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_3",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity3Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity4",
+      "type": "overlay",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_4",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity4Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity5",
+      "type": "overlay",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_5",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity5Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity6",
+      "type": "overlay",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_6",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity6Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity7",
+      "type": "overlay",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_7",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity7Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity8",
+      "type": "overlay",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_8",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity8Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity9",
+      "type": "overlay",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_9",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity9Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "Sanity10",
+      "type": "overlay",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_10",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity10Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "SanityCondition1",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_condition_1",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityCondition1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityCon2",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_con_2",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityCon2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityCon3",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_con_3",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityCon3Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv4",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_4",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv4Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv5",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_5",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv6",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_6",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv6Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv7",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_7",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv7Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv8",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_8",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv8Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConc9",
+      "type": "procedure",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conc_9",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConc9Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv10",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_10",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv10Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SanityConv0",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_conv_0",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityConv0Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sanity0",
+      "type": "overlay",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_0",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/screens/Sanity0Overlay.java"
+        ]
+      }
+    },
+    {
+      "name": "AlmondWaterDrink",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almond_water_drink",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/AlmondWaterDrinkProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AlmondWater",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almond_water",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/item/AlmondWaterItem.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/almond_water.json"
+        ]
+      }
+    },
+    {
+      "name": "SanityRun",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_run",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SanityRunProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BackroomsLoot",
+      "type": "loottable",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/backroomsloot.json"
+        ]
+      }
+    },
+    {
+      "name": "NewBakcroomLoot",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "new_bakcroom_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/newbakcroomloot.json"
+        ]
+      }
+    },
+    {
+      "name": "SanityRandomTick",
+      "type": "gamerule",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sanity_random_tick",
+      "metadata": {
+        "files": [],
+        "type": "number"
+      }
+    },
+    {
+      "name": "SetSanityProc",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_sanity_proc",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/SetSanityProcProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "arguments",
+            "type": "cmdcontext"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SetSanity",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "set_sanity",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/command/SetSanityCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "Level1",
+      "type": "dimension",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/world/dimension/Level1Dimension.java",
+          "src/main/resources/data/forge_backrooms_plus/dimension/level_1.json",
+          "src/main/resources/data/forge_backrooms_plus/dimension_type/level_1.json"
+        ]
+      }
+    },
+    {
+      "name": "IsThatHeven",
+      "type": "achievement",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_that_heven",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/advancements/is_that_heven.json"
+        ]
+      }
+    },
+    {
+      "name": "TheSafeWater",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_safe_water",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/advancements/the_safe_water.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodFromBackrooms1",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_from_backrooms_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/recipes/wood_from_backrooms_1.json"
+        ]
+      }
+    },
+    {
+      "name": "WoodFromBacrkooms2",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wood_from_bacrkooms_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/recipes/wood_from_bacrkooms_2.json"
+        ]
+      }
+    },
+    {
+      "name": "CarpetFromBackrooms",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carpet_from_backrooms",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/recipes/carpet_from_backrooms.json"
+        ]
+      }
+    },
+    {
+      "name": "BackroomsCarpet",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms_carpet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/backrooms_carpet.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/backrooms_carpet_down.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/BackroomsCarpetBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/backrooms_carpet.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/backrooms_carpet.json"
+        ]
+      }
+    },
+    {
+      "name": "BackroomsPotShard",
+      "type": "item",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms_pot_shard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/item/backrooms_pot_shard.json",
+          "src/main/java/com/tg/forgebackroomsplus/item/BackroomsPotShardItem.java"
+        ]
+      }
+    },
+    {
+      "name": "BackroomsChest",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms_pot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/block/BackroomsChestBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/backrooms_pot.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/backrooms_pot.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/backrooms_pot.json"
+        ]
+      }
+    },
+    {
+      "name": "BackroomsChestLoot",
+      "type": "procedure",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "backrooms_chest_loot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/BackroomsChestLootProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CraftedBackroomsPot",
+      "type": "block",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafted_backrooms_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/item/crafted_backrooms_pot.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/crafted_backrooms_pot.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/crafted_backrooms_pot.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/CraftedBackroomsPotBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CraftingBackroomsPot",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_backrooms_pot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/recipes/crafting_backrooms_pot.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1FloorWet",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_floor_wet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_floor_wet.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1FloorWetBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_floor_wet.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_floor_wet.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1WallWet",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_wall_wet",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_wall_wet.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1WallWetBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_wall_wet.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_wall_wet.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1Lamp",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_lamp",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1LampBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_lamp.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_lamp.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_lamp.json"
+        ]
+      }
+    },
+    {
+      "name": "Level1Ceiling",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_ceiling",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/block/Level1CeilingBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/level_1_ceiling.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/level_1_ceiling.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/level_1_ceiling.json"
+        ]
+      }
+    },
+    {
+      "name": "RoomGenerator",
+      "type": "block",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_generator",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/block/room_generator.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/room_generator.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/RoomGeneratorBlock.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/room_generator.json"
+        ]
+      }
+    },
+    {
+      "name": "RoomGeneratorStart",
+      "type": "procedure",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "room_generator_start",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/RoomGeneratorStartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CorrupterAdded",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupter_added",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/CorrupterAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Corrupter",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corrupter",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/item/corrupter.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/corrupter.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/corrupter.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/CorrupterBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Level1Start",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_1_start",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/Level1StartProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Level0b",
+      "type": "biome",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "level_0b",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/worldgen/biome/level_0b.json"
+        ]
+      }
+    },
+    {
+      "name": "Bacteria",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bacteria",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/entity/BacteriaEntity.java",
+          "src/main/java/com/tg/forgebackroomsplus/client/renderer/BacteriaRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Portal",
+      "type": "block",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forge_backrooms_plus/models/item/portal.json",
+          "src/main/resources/assets/forge_backrooms_plus/blockstates/portal.json",
+          "src/main/resources/assets/forge_backrooms_plus/models/block/portal.json",
+          "src/main/java/com/tg/forgebackroomsplus/block/PortalBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "PortalGdyBytZderzySieZBlokiem",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_gdy_byt_zderzy_sie_z_blokiem",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/procedures/PortalGdyBytZderzySieZBlokiemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PortalToTheBackrooms",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "portal_to_the_backrooms",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/worldgen/template_pool/portal_to_the_backrooms.json",
+          "src/main/resources/data/forge_backrooms_plus/worldgen/structure/portal_to_the_backrooms.json",
+          "src/main/resources/data/forge_backrooms_plus/worldgen/structure_set/portal_to_the_backrooms.json"
+        ]
+      }
+    },
+    {
+      "name": "Inv",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inv",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/client/gui/InvScreen.java",
+          "src/main/java/com/tg/forgebackroomsplus/world/inventory/InvMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "AlmondPocket",
+      "type": "item",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almond_pocket",
+      "metadata": {
+        "files": [
+          "src/main/java/com/tg/forgebackroomsplus/item/inventory/AlmondPocketInventoryCapability.java",
+          "src/main/java/com/tg/forgebackroomsplus/item/AlmondPocketItem.java",
+          "src/main/resources/assets/forge_backrooms_plus/models/item/almond_pocket.json"
+        ]
+      }
+    },
+    {
+      "name": "AlmondPocketRec",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "almond_pocket_rec",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge_backrooms_plus/recipes/almond_pocket_rec.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "stamina",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "10.0"
+    },
+    {
+      "name": "inv0",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv1",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv2",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv3",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv4",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv5",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv6",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    },
+    {
+      "name": "inv7",
+      "type": "logic",
+      "scope": "player_lifetime",
+      "value": "false"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "br.lamp",
+      "files": [
+        "backrooms-ambience.-_level-0_"
+      ],
+      "category": "ambient",
+      "subtitle": "Backrooms Lamp Sounds"
+    }
+  ],
+  "language_map": {
+    "pl_pl": {
+      "gui.forge_backrooms_plus.inv.label_almond_pocket": "Woda Migdałowa w Kieszonce",
+      "block.forge_backrooms_plus.portal": "Portal",
+      "block.forge_backrooms_plus.level_1_ceiling": "Sufit z Zaplecza",
+      "block.forge_backrooms_plus.room_generator": "Generator Zaplecza",
+      "gui.forge_backrooms_plus.sanity_8.label_1": "8",
+      "advancements.is_that_heven.title": "Czy to Niebo?",
+      "gui.forge_backrooms_plus.sanity_9.label_1": "9",
+      "item.forge_backrooms_plus.almond_pocket": "Kieszonka na Wodę Migdałową",
+      "block.forge_backrooms_plus.crafted_backrooms_pot": "Dzbanek z Zaplecza",
+      "block.forge_backrooms_plus.level_1_floor": "Podłoga w Dywanie",
+      "gui.forge_backrooms_plus.sanity_6.label_1": "6",
+      "gui.forge_backrooms_plus.sanity_5.label_1": "5",
+      "gui.forge_backrooms_plus.sanity_7.label_1": "7",
+      "gui.forge_backrooms_plus.sanity_10.label_1": "",
+      "item.forge_backrooms_plus.almond_water": "Woda Migdałowa",
+      "advancements.is_that_heven.descr": "Nie sądze...",
+      "gui.forge_backrooms_plus.sanity_4.label_1": "4",
+      "item.forge_backrooms_plus.backrooms_pot_shard": "Odłamek Dzbanka z Zaplecza",
+      "gui.forge_backrooms_plus.inv.label_empty1": "",
+      "gui.forge_backrooms_plus.inv.tooltip_it_works_like_chest_but_you_can": "To działa jak skrzynia! Ale tylko z Wodą Migdałową!",
+      "block.forge_backrooms_plus.level_1_wall": "Ściana w Tapecie",
+      "block.forge_backrooms_plus.level_1_lamp": "Lampa z Zaplecza",
+      "gamerule.sanityRandomTick": "Losowy Tick Sanity",
+      "death.attack.sanity_damage.player": "%1$s miał zbyt mało odporności psyhicznej uciekając przez %2$s",
+      "block.forge_backrooms_plus.backrooms_carpet": "Dywan z Zaplecza",
+      "gui.forge_backrooms_plus.sanity_1.label_1": "1",
+      "subtitles.br.lamp": "Dźwięki Lampy z Zaplecza",
+      "gui.forge_backrooms_plus.sanity_2.label_1": "2",
+      "entity.forge_backrooms_plus.bacteria": "Bakteria",
+      "block.forge_backrooms_plus.level_1_wall_wet": "Mokra ściana w Tapecie",
+      "gui.forge_backrooms_plus.sanity_3.label_1": "3",
+      "gui.forge_backrooms_plus.inv.tooltip_empty": "",
+      "block.forge_backrooms_plus.corrupter": "Zakaźnik",
+      "gamerule.sanityRandomTick.description": "większa oznacza większą odporność psychiczną, podstawa to 10 000",
+      "advancements.the_safe_water.title": "Bezpieczna Woda",
+      "block.forge_backrooms_plus.level_1_wall_damaged": "Uszkodzona ściana w Tapecie",
+      "death.attack.sanity_damage.item": "%1$s miał zbyt mało odporności psyhicznej uciekając przez %2$s z %3$s",
+      "gui.forge_backrooms_plus.sanity_0.label_1": "",
+      "death.attack.sanity_damage": "%1$s był przerażony śmierci.",
+      "advancements.the_safe_water.descr": "Jest bezpieczne.. i taaakie pyszne!",
+      "block.forge_backrooms_plus.backrooms_pot": "Dzbanek z Zaplecza",
+      "biome.forge_backrooms_plus.level_0b": "Poziom 0",
+      "block.forge_backrooms_plus.level_1_floor_wet": "Mokra Podłoga w Dywanie",
+      "gui.forge_backrooms_plus.inv.label_empty": "?"
+    },
+    "en_us": {
+      "gui.forge_backrooms_plus.inv.label_almond_pocket": "Almond Pocket",
+      "block.forge_backrooms_plus.portal": "Portal",
+      "block.forge_backrooms_plus.level_1_ceiling": "Backrooms Ceiling",
+      "block.forge_backrooms_plus.room_generator": "Room Generator",
+      "gui.forge_backrooms_plus.sanity_8.label_1": "8",
+      "advancements.is_that_heven.title": "Is That Heven?",
+      "gui.forge_backrooms_plus.sanity_9.label_1": "9",
+      "item.forge_backrooms_plus.almond_pocket": "Almond Water Pocket",
+      "block.forge_backrooms_plus.crafted_backrooms_pot": "Backrooms Pot",
+      "block.forge_backrooms_plus.level_1_floor": "Floor With Paper",
+      "gui.forge_backrooms_plus.sanity_6.label_1": "6",
+      "gui.forge_backrooms_plus.sanity_5.label_1": "5",
+      "gui.forge_backrooms_plus.sanity_7.label_1": "7",
+      "gui.forge_backrooms_plus.sanity_10.label_1": "",
+      "item.forge_backrooms_plus.almond_water": "Almond Water",
+      "advancements.is_that_heven.descr": "Well I don\u0027t think so...",
+      "gui.forge_backrooms_plus.sanity_4.label_1": "4",
+      "item.forge_backrooms_plus.backrooms_pot_shard": "Backrooms Pot Shard",
+      "gui.forge_backrooms_plus.inv.label_empty1": "",
+      "gui.forge_backrooms_plus.inv.tooltip_it_works_like_chest_but_you_can": "It works like chest! But you can do this only with Almond Water!",
+      "block.forge_backrooms_plus.level_1_wall": "Wallpapered Wall",
+      "block.forge_backrooms_plus.level_1_lamp": "Level 1 Lamp",
+      "gamerule.sanityRandomTick": "Sanity Random Tick",
+      "death.attack.sanity_damage.player": "%1$s had too litle stamina running from %2$s",
+      "block.forge_backrooms_plus.backrooms_carpet": "Backrooms Carpet",
+      "gui.forge_backrooms_plus.sanity_1.label_1": "1",
+      "subtitles.br.lamp": "Backrooms Lamp Sounds",
+      "gui.forge_backrooms_plus.sanity_2.label_1": "2",
+      "entity.forge_backrooms_plus.bacteria": "Bacteria",
+      "block.forge_backrooms_plus.level_1_wall_wet": "Wet Wallpapered Wall",
+      "gui.forge_backrooms_plus.sanity_3.label_1": "3",
+      "gui.forge_backrooms_plus.inv.tooltip_empty": "",
+      "block.forge_backrooms_plus.corrupter": "Corrupter",
+      "gamerule.sanityRandomTick.description": "bigger means you will have longer sanity, default is 10 000",
+      "advancements.the_safe_water.title": "The Safe Water",
+      "block.forge_backrooms_plus.level_1_wall_damaged": "Damaged Wallpapered Wall",
+      "death.attack.sanity_damage.item": "%1$s had too litle stamina running from %2$s with %3$s",
+      "gui.forge_backrooms_plus.sanity_0.label_1": "",
+      "death.attack.sanity_damage": "%1$s was scared to death.",
+      "advancements.the_safe_water.descr": "It\u0027s safe... and sooooo delicious!",
+      "block.forge_backrooms_plus.backrooms_pot": "Backrooms Pot",
+      "biome.forge_backrooms_plus.level_0b": "Level 0",
+      "block.forge_backrooms_plus.level_1_floor_wet": "Wet Floor With Paper",
+      "gui.forge_backrooms_plus.inv.label_empty": "?"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "forge_backrooms_plus",
+    "modName": "Forge Backrooms Plus",
+    "version": "0.0.7",
+    "description": "It\u0027s possible to escape from Backrooms, isn\u0027t it?",
+    "author": "TygrysGames, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Made with MCreator by TygrysGames",
+    "modElementsPackage": "com.tg.forgebackroomsplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

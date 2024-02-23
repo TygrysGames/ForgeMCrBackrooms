@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "forge_backrooms_plus:textures/screens/backrooms.png",
+    "icon": {
+      "item": "forge_backrooms_plus:level_1_wall"
+    },
+    "title": {
+      "translate": "advancements.is_that_heven.title"
+    },
+    "description": {
+      "translate": "advancements.is_that_heven.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "is_that_heven": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "forge_backrooms_plus:level_1"
+      }
+    }
+  }
+}

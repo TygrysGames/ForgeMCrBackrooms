@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "forge_backrooms_plus:level_1_wall_damaged"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stick",
+    "count": 6
+  }
+}

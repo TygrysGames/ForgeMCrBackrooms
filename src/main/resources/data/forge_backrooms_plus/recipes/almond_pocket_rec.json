@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbc",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "b": {
+      "item": "forge_backrooms_plus:almond_water"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "minecraft:diamond"
+    },
+    "e": {
+      "item": "forge_backrooms_plus:level_1_wall"
+    }
+  },
+  "result": {
+    "item": "forge_backrooms_plus:almond_pocket",
+    "count": 1
+  }
+}

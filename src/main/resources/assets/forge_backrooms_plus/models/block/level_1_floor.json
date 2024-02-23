@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forge_backrooms_plus:block/alevel1floor",
+    "particle": "forge_backrooms_plus:block/alevel1floor"
+  },
+  "render_type": "solid"
+}

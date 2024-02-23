@@ -1,0 +1,9 @@
+{
+  "parent": "forge_backrooms_plus:custom/backroomschest",
+  "textures": {
+    "all": "forge_backrooms_plus:block/backroomschest",
+    "particle": "forge_backrooms_plus:block/backroomschest",
+    "0": "forge_backrooms_plus:block/backroomschest"
+  },
+  "render_type": "solid"
+}

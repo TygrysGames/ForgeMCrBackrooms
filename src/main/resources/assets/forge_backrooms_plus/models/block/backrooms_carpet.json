@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_up",
+  "textures": {
+    "texture": "forge_backrooms_plus:block/alevel1floor"
+  },
+  "render_type": "solid"
+}

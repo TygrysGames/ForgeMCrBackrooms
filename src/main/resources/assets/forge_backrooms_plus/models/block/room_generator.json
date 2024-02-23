@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forge_backrooms_plus:block/level1lamp",
+    "particle": "forge_backrooms_plus:block/level1lamp"
+  },
+  "render_type": "solid"
+}

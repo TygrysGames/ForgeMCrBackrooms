@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "Sanity Random Tick",
+    "description": "bigger means you will have longer sanity, default is 10 000",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 10000
+  }
+}

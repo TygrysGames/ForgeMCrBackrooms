@@ -1,0 +1,12 @@
+{
+  "_fv": 57,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.5,
+    "scaling": "when_caused_by_living_non_player",
+    "effects": "freezing",
+    "normalDeathMessage": "%1$s was scared to death.",
+    "itemDeathMessage": "%1$s had too litle stamina running from %2$s with %3$s",
+    "playerDeathMessage": "%1$s had too litle stamina running from %2$s"
+  }
+}

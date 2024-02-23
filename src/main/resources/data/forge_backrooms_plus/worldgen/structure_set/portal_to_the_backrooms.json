@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "forge_backrooms_plus:portal_to_the_backrooms",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 5,
+    "separation": 2,
+    "salt": 1179766813
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "forge_backrooms_plus:block/backrooms_carpet"
+    },
+    "powered=true": {
+      "model": "forge_backrooms_plus:block/backrooms_carpet_down"
+    }
+  }
+}

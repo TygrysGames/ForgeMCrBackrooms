@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "a a",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "forge_backrooms_plus:backrooms_pot_shard"
+    }
+  },
+  "result": {
+    "item": "forge_backrooms_plus:crafted_backrooms_pot",
+    "count": 1
+  }
+}

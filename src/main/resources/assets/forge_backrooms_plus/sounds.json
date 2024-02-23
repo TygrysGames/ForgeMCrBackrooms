@@ -1,0 +1,11 @@
+{
+  "br.lamp": {
+    "subtitle": "subtitles.br.lamp",
+    "sounds": [
+      {
+        "name": "forge_backrooms_plus:backrooms-ambience.-_level-0_",
+        "stream": false
+      }
+    ]
+  }
+}
