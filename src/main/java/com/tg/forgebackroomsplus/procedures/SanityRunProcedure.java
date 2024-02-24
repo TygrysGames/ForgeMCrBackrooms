@@ -10,8 +10,6 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
-import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.registries.Registries;
@@ -39,8 +37,7 @@ public class SanityRunProcedure {
 			return;
 		double stamina = 0;
 		stamina = (entity.getCapability(ForgeBackroomsPlusModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ForgeBackroomsPlusModVariables.PlayerVariables())).stamina;
-		if (entity instanceof ServerPlayer _plr0 && _plr0.level() instanceof ServerLevel
-				&& _plr0.getAdvancements().getOrStartProgress(_plr0.server.getAdvancements().getAdvancement(new ResourceLocation("forge_backrooms_plus:is_that_heven"))).isDone()) {
+		if ((entity.level().dimension()) == (ResourceKey.create(Registries.DIMENSION, new ResourceLocation("forge_backrooms_plus:level_1")))) {
 			if (Mth.nextInt(RandomSource.create(), 1, (world.getLevelData().getGameRules().getInt(ForgeBackroomsPlusModGameRules.SANITY_RANDOM_TICK))) == 1) {
 				if (!(stamina == 0)) {
 					{
