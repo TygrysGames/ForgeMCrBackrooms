@@ -118,17 +118,19 @@ public class RoomGeneratorStartProcedure {
 				}
 			} else {
 				if (world instanceof ServerLevel _serverworld) {
-					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forge_backrooms_plus", "level0_1"));
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forge_backrooms_plus", "level0_2"));
 					if (template != null) {
 						template.placeInWorld(_serverworld, BlockPos.containing(x - 4, y, z - 4), BlockPos.containing(x - 4, y, z - 4), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 								_serverworld.random, 3);
 					}
 				}
+			}
+			if (Math.random() > 0.9) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forge_backrooms_plus", "backroomsportal"));
 					if (template != null) {
-						template.placeInWorld(_serverworld, BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), x + 1, z + Mth.nextInt(RandomSource.create(), -4, 4)),
-								BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), x + 1, z + Mth.nextInt(RandomSource.create(), -4, 4)),
+						template.placeInWorld(_serverworld, BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), y + 1, z + Mth.nextInt(RandomSource.create(), -4, 4)),
+								BlockPos.containing(x + Mth.nextInt(RandomSource.create(), -4, 4), y + 1, z + Mth.nextInt(RandomSource.create(), -4, 4)),
 								new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random, 3);
 					}
 				}

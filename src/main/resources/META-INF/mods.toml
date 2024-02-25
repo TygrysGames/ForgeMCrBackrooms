@@ -4,9 +4,10 @@ license="Academic Free License v3.0"
 
 [[mods]]
 modId="forge_backrooms_plus"
-version="0.0.8"
+version="0.0.9"
 displayName="Forge Backrooms Plus"
 displayURL="https://mcreator.net"
+logoFile="logo.png"
 credits="Made with MCreator by TygrysGames"
 authors="TygrysGames, MCreator"
 description="It's possible to escape from Backrooms, isn't it?"
